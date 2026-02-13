@@ -1,0 +1,770 @@
+{
+  "metadata": {
+    "collection_date": "2026-02-13",
+    "data_freshness": "Data sourced from IRDAI FY 2024-25 disclosures, insurer websites, PolicyBazaar, Beshak.org, Ditto, and other aggregators. Last verified February 2026.",
+    "disclaimer": "Information compiled from public sources. Premiums are NOT included (to be sourced separately via premium calculators). Coverage features are based on standard plan variants with ₹10 Lakh sum insured unless noted. Always verify with official policy documents before purchase.",
+    "gst_note": "As of September 22, 2025, health insurance premiums in India are exempt from GST (previously 18%).",
+    "sources_consulted": [
+      "IRDAI Annual Report 2024-25",
+      "Insurer official websites",
+      "PolicyBazaar.com",
+      "Beshak.org (Mint partner)",
+      "JoinDitto.in",
+      "PolicyX.com",
+      "InsuranceDekho.com",
+      "SMCInsurance.com",
+      "Coverfox.com"
+    ]
+  },
+  "insurers": [
+    {
+      "insurer_name": "Star Health and Allied Insurance Co. Ltd.",
+      "insurer_id": "star_health",
+      "founded": 2006,
+      "type": "Standalone Health Insurer",
+      "headquarters": "Chennai",
+      "irdai_registration": "IRDAI Reg. No. IRDA/HI/01/2006",
+      "claim_settlement_ratio": {
+        "csr_percentage": "~85% (3-year avg FY 2022-25)",
+        "csr_within_3_months": "82.31% (FY 2023-24 IRDAI)",
+        "self_reported_csr": "99.10% (FY 2024 as per insurer website)",
+        "incurred_claim_ratio": "66.47% (FY 2023-24)",
+        "financial_year": "FY 2024-25",
+        "source": "IRDAI Annual Report, Ditto analysis, PolicyX",
+        "note": "Star Health under IRDAI scrutiny for claim settlement practices as of March 2025. Self-reported CSR differs significantly from independent analysis. Highest complaint volume among standalone health insurers (52 complaints per 10,000 claims)."
+      },
+      "network_hospitals": "14,000+",
+      "cashless_hospitals": "14,000+",
+      "solvency_ratio": "1.68 (March 2025)",
+      "data_sources": {
+        "company_website": "https://www.starhealth.in",
+        "brochure_downloads": "https://www.starhealth.in/downloads/",
+        "claim_ratio_source": "https://joinditto.in/articles/health-insurance/star-health-insurance-claim-settlement-ratio/"
+      },
+      "plans": [
+        {
+          "plan_id": "star_001",
+          "plan_name": "Star Comprehensive Insurance Policy",
+          "plan_type": "Individual / Family Floater",
+          "description": "Feature-rich comprehensive plan covering hospitalization, maternity, OPD, bariatric surgery, and modern treatments. Offers PED buyback rider to reduce waiting period from 36 to 12 months.",
+          "coverage_static": {
+            "min_sum_insured": 500000,
+            "max_sum_insured": 10000000,
+            "sum_insured_options": "₹5L, ₹7.5L, ₹10L, ₹15L, ₹20L, ₹25L, ₹50L, ₹1Cr",
+            "room_rent_limit": "Single Private AC Room (Any room except Suite with Extra Protect add-on for SI > ₹20L)",
+            "icu_rent_limit": "No limit",
+            "co_payment": "Nil up to age 60; 10% co-payment after age 60",
+            "disease_sublimits": "Bariatric surgery limited to ₹2.5L-₹5L depending on SI. Maternity has specific sub-limits.",
+            "no_claim_bonus": "50% of basic SI per claim-free year, max 100% of SI. For SI ≥ ₹7.5L, 100% NCB in first claim-free year itself.",
+            "restoration_benefit": "Yes - 100% automatic restoration once per policy year, usable for same or different illness",
+            "ayush_coverage": "Yes, up to ₹15,000",
+            "daycare_procedures": "All daycare procedures covered",
+            "modern_treatments": ["Bariatric surgery (with sub-limits)", "Robotic surgery", "Oral chemotherapy", "Stem cell therapy"],
+            "ambulance_coverage": "Road: As per actuals; Air ambulance: Up to ₹2,50,000 per hospitalization (max ₹5,00,000 per policy year)",
+            "health_checkups": "Free health check-up every claim-free year",
+            "consumables_coverage": "Not covered in base plan",
+            "maternity_coverage": "Yes - Normal delivery ₹15,000-₹50,000; C-section ₹20,000-₹75,000 (varies by SI). Newborn covered up to ₹1L for 90 days.",
+            "opd_coverage": "Yes - Outpatient consultation and dental/ophthalmic treatment covered up to limits",
+            "domiciliary_hospitalization": "Covered",
+            "pre_hospitalization_days": 60,
+            "post_hospitalization_days": 90,
+            "mental_illness_coverage": "Covered as per IRDAI mandate"
+          },
+          "waiting_periods": {
+            "initial_waiting_days": 30,
+            "ped_waiting_months": 36,
+            "ped_buyback_available": true,
+            "ped_buyback_reduced_to_months": 12,
+            "specific_diseases_months": 24,
+            "maternity_waiting_months": 24,
+            "notes": "PED Buyback rider available at additional premium to reduce PED waiting from 36 months to 12 months. This is one of the shortest PED options in the market."
+          },
+          "exclusions": [
+            "Cosmetic/plastic surgery (unless medically necessary)",
+            "Self-inflicted injuries",
+            "War and nuclear weapon related injuries",
+            "Treatment for obesity (except bariatric surgery after waiting)",
+            "Infertility and sterility treatments",
+            "Venereal diseases and STDs",
+            "Endocrine disorders treatment",
+            "Change of gender treatment",
+            "Adventure sports injuries",
+            "Consumables/non-medical items (base plan)"
+          ],
+          "key_features": [
+            "Maternity and newborn cover included",
+            "PED Buyback rider (36 → 12 months)",
+            "OPD cover included",
+            "Air ambulance coverage",
+            "Midterm inclusion for newlywed spouse/newborn",
+            "Lifelong renewability",
+            "Hospital daily cash benefit up to 7 days (₹500/day)",
+            "Second medical opinion",
+            "Wellness program with premium discounts",
+            "Personal accident cover"
+          ],
+          "brochure_url": "https://d37e9lgzp3sa8.cloudfront.net/sites/default/files/brochure/Comprehensive-Premium-Chart-1.pdf",
+          "official_url": "https://www.starhealth.in/health-insurance/comprehensive-health-insurance/",
+          "comparison_url": "https://www.policybazaar.com/insurance-companies/star-health-insurance/star-comprehensive-insurance-policy/"
+        },
+        {
+          "plan_id": "star_002",
+          "plan_name": "Super Star Insurance Policy",
+          "plan_type": "Individual / Family Floater",
+          "description": "Premium flagship plan with age-lock feature (premiums based on entry age until claim), no room rent capping, worldwide coverage option, and sum insured options up to ₹1 Crore including unlimited SI.",
+          "coverage_static": {
+            "min_sum_insured": 500000,
+            "max_sum_insured": 100000000,
+            "sum_insured_options": "₹5L, ₹10L, ₹15L, ₹20L, ₹25L, ₹50L, ₹1Cr, Unlimited",
+            "room_rent_limit": "No limit (any room including suite)",
+            "icu_rent_limit": "No limit",
+            "co_payment": "Nil",
+            "disease_sublimits": "None for most treatments",
+            "no_claim_bonus": "50% per claim-free year, max 100% of SI (Super Star Bonus)",
+            "restoration_benefit": "Yes - automatic restoration for related and unrelated illnesses throughout policy year",
+            "ayush_coverage": "Yes, covered up to SI in recognized AYUSH hospitals",
+            "daycare_procedures": "All daycare procedures covered",
+            "modern_treatments": ["Robotic surgery", "Oral chemotherapy", "Stem cell therapy", "Bariatric surgery"],
+            "ambulance_coverage": "Road and air ambulance covered",
+            "health_checkups": "Annual health check-up up to 1% of SI (max ₹25,000) from Day 1, includes vaccination expenses",
+            "consumables_coverage": "Available as add-on (Quick Shield)",
+            "maternity_coverage": "Optional cover - up to 4 deliveries. Waiting periods waived for newly added spouse.",
+            "opd_coverage": "Not in base; available via add-on",
+            "domiciliary_hospitalization": "Covered",
+            "pre_hospitalization_days": 90,
+            "post_hospitalization_days": 180,
+            "mental_illness_coverage": "Covered",
+            "medical_equipment_coverage": "Up to ₹5L once in lifetime for prescribed medical equipment"
+          },
+          "waiting_periods": {
+            "initial_waiting_days": 30,
+            "ped_waiting_months": 36,
+            "ped_buyback_available": true,
+            "ped_buyback_reduced_to_months": 12,
+            "specific_diseases_months": 24,
+            "maternity_waiting_months": "As per optional cover terms",
+            "notes": "Unique 'Lock the Clock' feature - premiums stay at entry age until claim is made or age 55. PED reduction from 36 to 24/12 months available. Limitless Care feature: one claim in lifetime covered without SI limits."
+          },
+          "exclusions": [
+            "Cosmetic surgery (unless medically necessary)",
+            "Self-inflicted injuries",
+            "War-related injuries",
+            "Obesity treatment (except covered bariatric surgery)",
+            "Adventure sports (unless specifically covered)",
+            "Super Star Bonus and Limitless Care not applicable if Unlimited SI opted"
+          ],
+          "key_features": [
+            "Age-lock premium (Lock the Clock) until age 55 or first claim",
+            "Limitless Care - one unlimited claim in lifetime",
+            "Worldwide coverage option",
+            "Unlimited SI option",
+            "90 days pre-hospitalization + 180 days post-hospitalization",
+            "Medical equipment coverage up to ₹5L",
+            "Annual health check-up from Day 1",
+            "Quick Shield add-on for consumables",
+            "PED reduction add-on (to 12 months)"
+          ],
+          "brochure_url": "https://d28c6jni2fmamz.cloudfront.net/Brochure_Super_Star_Web_026575d7c4.pdf",
+          "official_url": "https://www.starhealth.in/health-insurance/super-star/",
+          "comparison_url": "https://www.beshak.org/insurance/health-insurance/best-health-insurance-plans/star-health-super-star/"
+        },
+        {
+          "plan_id": "star_003",
+          "plan_name": "Star Health Assure Insurance Policy",
+          "plan_type": "Individual / Family Floater",
+          "description": "Mid-range plan with good coverage options from ₹5L to ₹2Cr. Room rent has sub-limits at lower SI. Suitable for budget-conscious buyers wanting basic comprehensive cover.",
+          "coverage_static": {
+            "min_sum_insured": 500000,
+            "max_sum_insured": 20000000,
+            "sum_insured_options": "₹5L to ₹2Cr",
+            "room_rent_limit": "1% of SI for ₹5L SI; Single Private AC Room for higher SI options",
+            "icu_rent_limit": "2% of SI for ₹5L; no limit for higher SI",
+            "co_payment": "Nil (up to age 60); 10-20% co-pay may apply for senior citizens",
+            "disease_sublimits": "Cataract limited; varies by SI",
+            "no_claim_bonus": "Up to 100% of SI for claim-free years",
+            "restoration_benefit": "Yes, once per policy year",
+            "ayush_coverage": "Yes, covered",
+            "daycare_procedures": "All covered",
+            "modern_treatments": ["Covered up to SI"],
+            "ambulance_coverage": "Covered",
+            "health_checkups": "Available after claim-free years",
+            "consumables_coverage": "Not in base plan",
+            "pre_hospitalization_days": 60,
+            "post_hospitalization_days": 90
+          },
+          "waiting_periods": {
+            "initial_waiting_days": 30,
+            "ped_waiting_months": 36,
+            "ped_buyback_available": false,
+            "specific_diseases_months": 24,
+            "maternity_waiting_months": "Not covered in base",
+            "notes": "Standard waiting periods. No PED buyback option available unlike Comprehensive and Super Star."
+          },
+          "exclusions": [
+            "Standard IRDAI permanent exclusions",
+            "Cosmetic surgery",
+            "Self-inflicted injuries",
+            "Adventure sports injuries"
+          ],
+          "key_features": [
+            "Budget-friendly option",
+            "Midterm inclusion for spouse/newborn",
+            "Lifelong renewability",
+            "Wide SI range up to ₹2Cr"
+          ],
+          "official_url": "https://www.starhealth.in/health-insurance/star-health-assure/",
+          "comparison_url": "https://www.beshak.org/insurance/health-insurance/best-health-insurance-plans/star-health-assure/"
+        }
+      ]
+    },
+    {
+      "insurer_name": "HDFC ERGO General Insurance Company Ltd.",
+      "insurer_id": "hdfc_ergo",
+      "founded": 2002,
+      "type": "General Insurer (Private)",
+      "headquarters": "Mumbai",
+      "claim_settlement_ratio": {
+        "csr_percentage": "98.85% within 3 months (FY 2024-25)",
+        "three_year_avg_csr": "~98% (FY 2022-25)",
+        "incurred_claim_ratio": "~86%",
+        "financial_year": "FY 2024-25",
+        "complaint_volume": "7 complaints per 10,000 claims (well below industry avg of 22)",
+        "source": "IRDAI FY 2024-25 disclosures, Ditto analysis",
+        "note": "Consistently one of the most reliable insurers. Low complaint volume is a standout metric."
+      },
+      "network_hospitals": "13,000+",
+      "cashless_hospitals": "13,000+",
+      "solvency_ratio": "2.00 (March 2025)",
+      "data_sources": {
+        "company_website": "https://www.hdfcergo.com",
+        "claim_ratio_source": "https://joinditto.in/articles/health-insurance/optima-secure-review-2025/"
+      },
+      "plans": [
+        {
+          "plan_id": "hdfc_001",
+          "plan_name": "HDFC ERGO Optima Secure",
+          "plan_type": "Individual / Family Floater",
+          "description": "Flagship plan offering 2X coverage from Day 1 (Secure Benefit), 4X total coverage over 2 years, no room rent limits, no disease sub-limits. Ranked #2 in Mint Beshak Insurance Ratings.",
+          "coverage_static": {
+            "min_sum_insured": 500000,
+            "max_sum_insured": 20000000,
+            "sum_insured_options": "₹5L to ₹2Cr",
+            "room_rent_limit": "No limit - any room including Suite",
+            "icu_rent_limit": "No limit",
+            "co_payment": "Nil",
+            "disease_sublimits": "None - cataract, joint replacement all covered at full SI",
+            "no_claim_bonus": "10% of SI per claim-free year",
+            "secure_benefit": "2X base cover from Day 1 (e.g., ₹10L policy = ₹20L cover instantly)",
+            "plus_benefit": "Base cover increases by 50% after Year 1, 100% after Year 2 - regardless of claims",
+            "restoration_benefit": "100% restoration once per year (Unlimited Restore available as add-on)",
+            "ayush_coverage": "Yes, covered up to SI",
+            "daycare_procedures": "All daycare procedures covered (unlimited)",
+            "modern_treatments": ["All modern treatments covered up to SI", "Robotic surgery", "Bariatric surgery", "Oral chemotherapy"],
+            "ambulance_coverage": "Up to ₹2,000 for individual; ₹5,000 for family floater per continuous renewal",
+            "health_checkups": "Preventive health check-up benefit available",
+            "consumables_coverage": "68 listed non-medical/consumable items covered at no extra premium (Protection Benefit)",
+            "maternity_coverage": "Not in base plan. Available as add-on: ₹50,000 - ₹2,00,000 after 2-year waiting period.",
+            "opd_coverage": "Not in base plan; available via add-on",
+            "domiciliary_hospitalization": "Covered up to SI",
+            "pre_hospitalization_days": 60,
+            "post_hospitalization_days": 180,
+            "mental_illness_coverage": "Covered"
+          },
+          "waiting_periods": {
+            "initial_waiting_days": 30,
+            "ped_waiting_months": 36,
+            "ped_buyback_available": true,
+            "ped_buyback_reduced_to_months": "12 or 24 months (add-on not live yet as of Jan 2026)",
+            "abcd_chronic_care_rider": "Reduces waiting for Asthma, Blood pressure, Cholesterol, Diabetes to 30 days",
+            "specific_diseases_months": 24,
+            "maternity_waiting_months": 24,
+            "notes": "ABCD Chronic Care Rider is a unique industry feature - covers 4 lifestyle diseases from Day 31. Standard PED buyback add-on in development."
+          },
+          "exclusions": [
+            "War/nuclear/chemical/biological events",
+            "Self-inflicted injuries and attempted suicide",
+            "HIV/AIDS related treatments",
+            "Congenital anomalies",
+            "Infertility/sterility/IVF treatments",
+            "Maternity (unless add-on purchased)",
+            "Treatments outside policy scope"
+          ],
+          "key_features": [
+            "2X cover from Day 1 (Secure Benefit) - industry-leading",
+            "4X total coverage in 2 years (Secure + Plus benefit)",
+            "No room rent or disease sub-limits",
+            "68 consumable items covered in base plan",
+            "ABCD Chronic Care Rider (lifestyle diseases from Day 31)",
+            "Monthly premium payment option",
+            "Global Health Cover add-on",
+            "Aggregate deductible option (up to 50% premium discount)",
+            "Loyalty discount for existing HDFC ERGO customers (2.5%)",
+            "Critical Illness add-on (₹1L - ₹5Cr)",
+            "Personal Accident rider"
+          ],
+          "official_url": "https://www.hdfcergo.com/health-insurance/optima-secure",
+          "policy_wording_url": "https://www.hdfcergo.com/docs/default-source/downloads/policy-wordings/health/optima-secure-revision-pw.pdf",
+          "comparison_url": "https://www.beshak.org/insurance/health-insurance/best-health-insurance-plans/hdfc-ergo-optima-secure/"
+        }
+      ]
+    },
+    {
+      "insurer_name": "ICICI Lombard General Insurance Co. Ltd.",
+      "insurer_id": "icici_lombard",
+      "founded": 2001,
+      "type": "General Insurer (Private)",
+      "headquarters": "Mumbai",
+      "claim_settlement_ratio": {
+        "csr_percentage": "98.45% within 3 months (FY 2024-25)",
+        "self_reported_csr": "99.30%",
+        "financial_year": "FY 2024-25",
+        "source": "IRDAI FY 2024-25 disclosures",
+        "note": "One of India's largest private general insurers. Quick claim approvals - initial cashless within 1 hour, final approval within 3 hours of discharge."
+      },
+      "network_hospitals": "10,000+",
+      "cashless_hospitals": "9,500+",
+      "solvency_ratio": "2.69 (March 2025)",
+      "data_sources": {
+        "company_website": "https://www.icicilombard.com",
+        "brochure_url": "https://www.icicilombard.com/docs/default-source/downloads/new-complete-health-insurance-brochure.pdf"
+      },
+      "plans": [
+        {
+          "plan_id": "icici_001",
+          "plan_name": "ICICI Lombard Complete Health Insurance",
+          "plan_type": "Individual / Family Floater",
+          "description": "Comprehensive health plan available in multiple variants (Health Shield, iHealth). No room rent capping, no co-pay, covers pre-existing diseases after 24 months. Good option with maternity and OPD add-ons.",
+          "coverage_static": {
+            "min_sum_insured": 300000,
+            "max_sum_insured": 50000000,
+            "sum_insured_options": "₹3L to ₹5Cr (varies by variant)",
+            "room_rent_limit": "No limit - any room category",
+            "icu_rent_limit": "No limit",
+            "co_payment": "Nil",
+            "disease_sublimits": "Cataract: ₹1L per eye per policy year; Joint replacement: up to SI",
+            "no_claim_bonus": "Varies by variant. Health Shield: cumulative bonus applicable",
+            "restoration_benefit": "Yes - for unrelated illnesses. Unlimited times per policy year for subsequent claims (Health Shield variant)",
+            "ayush_coverage": "Yes, covered",
+            "daycare_procedures": "160+ daycare procedures covered",
+            "modern_treatments": ["Covered up to SI"],
+            "ambulance_coverage": "Covered",
+            "health_checkups": "Complimentary health check-up coupons provided",
+            "consumables_coverage": "Available as Claim Protector add-on",
+            "maternity_coverage": "Available as optional add-on",
+            "opd_coverage": "Available as optional add-on (OPD+ rider)",
+            "domiciliary_hospitalization": "Covered",
+            "pre_hospitalization_days": 60,
+            "post_hospitalization_days": 180,
+            "mental_illness_coverage": "Covered"
+          },
+          "waiting_periods": {
+            "initial_waiting_days": 30,
+            "ped_waiting_months": 24,
+            "specific_diseases_months": 24,
+            "maternity_waiting_months": "As per add-on terms",
+            "notes": "One of the shorter PED waiting periods at 24 months (vs. industry standard 36-48 months). Lifelong renewability with entry age up to 65."
+          },
+          "exclusions": [
+            "Standard IRDAI permanent exclusions",
+            "Self-inflicted injuries",
+            "War/nuclear related",
+            "Cosmetic surgery",
+            "Spectacles/contact lenses/dental (unless specific add-on)",
+            "Childbirth expenses (unless add-on purchased)",
+            "Drug/alcohol abuse related"
+          ],
+          "key_features": [
+            "24-month PED waiting (shorter than many competitors)",
+            "No room rent or co-payment restrictions",
+            "4 plan variants for customization",
+            "Wellness activities reward program",
+            "Hospital daily cash optional cover",
+            "Critical illness add-on",
+            "Convalescence benefit (₹10K if hospitalized 10+ days)",
+            "Lifelong renewability"
+          ],
+          "brochure_url": "https://www.icicilombard.com/docs/default-source/downloads/new-complete-health-insurance-brochure.pdf",
+          "official_url": "https://www.icicilombard.com/health-insurance",
+          "comparison_url": "https://www.beshak.org/insurance/health-insurance/best-health-insurance-plans/icici-lombard-complete-health-insurance-health-shield/"
+        },
+        {
+          "plan_id": "icici_002",
+          "plan_name": "ICICI Lombard Elevate",
+          "plan_type": "Individual / Family Floater",
+          "description": "Next-generation premium plan with JumpStart benefit (lifestyle disease PED reduced to 30 days), unlimited sum insured option, Infinite Care benefit (one unlimited claim in policy lifetime), and Power Booster for 100% annual SI increase.",
+          "coverage_static": {
+            "min_sum_insured": 500000,
+            "max_sum_insured": "Unlimited",
+            "sum_insured_options": "₹5L to Unlimited",
+            "room_rent_limit": "Varies by variant - Twin sharing or No limit (Room Modifier add-on available)",
+            "icu_rent_limit": "No limit",
+            "co_payment": "Nil (PPN discount available - 10% premium discount if treated at Preferred Provider Network hospitals)",
+            "disease_sublimits": "None for most treatments",
+            "no_claim_bonus": "Guaranteed cumulative bonus of 20% per year up to 100% (Infinite Super Loyalty Bonus - even after claims)",
+            "restoration_benefit": "100% Reset - unlimited times per year from 2nd claim onwards (Infinite Reset)",
+            "ayush_coverage": "Yes",
+            "daycare_procedures": "All daycare procedures; 2-hour hospitalization also covered",
+            "modern_treatments": ["All modern treatments without capping"],
+            "ambulance_coverage": "Road ambulance; Domestic Air Ambulance add-on available",
+            "health_checkups": "Wellness services included (health assistance team, ambulance assistance)",
+            "consumables_coverage": "Available via Claim Protector add-on",
+            "maternity_coverage": "Covered in base plan with sub-limits. Maternity waiting period reduction add-on available (2 years to 1 year).",
+            "opd_coverage": "OPD+ rider available",
+            "domiciliary_hospitalization": "Covered",
+            "pre_hospitalization_days": 60,
+            "post_hospitalization_days": 180,
+            "mental_illness_coverage": "Covered",
+            "surrogacy_coverage": "Up to ₹5L for surrogate mother and oocyte donor expenses"
+          },
+          "waiting_periods": {
+            "initial_waiting_days": 30,
+            "ped_waiting_months": 36,
+            "jumpstart_benefit": "Reduces PED waiting for Asthma, Diabetes, Hypertension, Obesity, Coronary Artery Disease, Hyperlipidemia to 30 days (must be opted for 3 consecutive years)",
+            "specific_diseases_months": 24,
+            "hypertension_diabetes_cardiac_months": "3 months (in some variants)",
+            "maternity_waiting_months": "24 months (reducible to 12 months via add-on)",
+            "worldwide_cover_waiting": "24 months (reducible to 12 months via add-on)",
+            "notes": "JumpStart is a game-changer for lifestyle diseases. CIBIL score discount available for good credit scores."
+          },
+          "exclusions": [
+            "Standard IRDAI permanent exclusions",
+            "Self-inflicted injuries",
+            "Drug/alcohol related",
+            "Adventure sports (unless covered)",
+            "Cosmetic treatments"
+          ],
+          "key_features": [
+            "JumpStart - lifestyle disease PED to 30 days",
+            "Infinite Care - one unlimited claim in lifetime",
+            "Infinite Reset - unlimited SI restoration from 2nd claim",
+            "Infinite Super Loyalty Bonus - NCB never reduces even after claims",
+            "Power Booster - 100% SI increase annually without cap",
+            "Unlimited SI option (industry first)",
+            "2-hour hospitalization covered",
+            "Surrogacy coverage up to ₹5L",
+            "CIBIL score-based premium discount",
+            "BeFit wellness program (up to 30% renewal discount)",
+            "Sum Insured Protector (inflation protection add-on)",
+            "Worldwide cover option"
+          ],
+          "official_url": "https://www.policybazaar.com/insurance-companies/icici-lombard-health-insurance/elevate-plan/",
+          "comparison_url": "https://www.oneassure.in/health-insurance/icici-lombard/icici-elevate"
+        }
+      ]
+    },
+    {
+      "insurer_name": "Niva Bupa Health Insurance Co. Ltd.",
+      "insurer_id": "niva_bupa",
+      "formerly_known_as": "Max Bupa Health Insurance",
+      "founded": 2008,
+      "type": "Standalone Health Insurer",
+      "headquarters": "New Delhi",
+      "claim_settlement_ratio": {
+        "csr_percentage": "100% within 3 months (FY 2024-25 IRDAI)",
+        "self_reported_csr": "92.4% (alternate calculation)",
+        "financial_year": "FY 2024-25",
+        "source": "IRDAI FY 2024-25 disclosures",
+        "note": "100% claims settled within 3 months as per IRDAI. Known for 30-minute cashless claim processing. Product innovator in the market."
+      },
+      "network_hospitals": "10,000+",
+      "cashless_hospitals": "10,000+",
+      "solvency_ratio": "3.03 (March 2025)",
+      "data_sources": {
+        "company_website": "https://www.nivabupa.com",
+        "claim_ratio_source": "IRDAI FY 2024-25 disclosure"
+      },
+      "plans": [
+        {
+          "plan_id": "niva_001",
+          "plan_name": "Niva Bupa ReAssure 2.0 / 3.0",
+          "plan_type": "Individual / Family Floater",
+          "description": "Flagship comprehensive plan with unlimited reinstatement (ReAssure Forever), Booster+ (unused SI carries forward up to 10x), Lock the Clock, and up to 30% wellness discount. ReAssure 3.0 (latest) has 4 variants: Classic, Select, Elite, Black.",
+          "coverage_static": {
+            "min_sum_insured": 500000,
+            "max_sum_insured": 100000000,
+            "sum_insured_options": "₹5L, ₹10L, ₹15L, ₹20L, ₹25L, ₹50L, ₹1Cr, Unlimited (in some variants)",
+            "room_rent_limit": "No limit - any room without capping (including ICU)",
+            "icu_rent_limit": "No limit",
+            "co_payment": "Nil (co-payment applies if treated outside suggested hospital network in ReAssure 3.0 Concierge benefit)",
+            "disease_sublimits": "None for most treatments. Cataract may have sub-limits in lower variants.",
+            "no_claim_bonus": "Booster+ benefit - unused SI carries forward up to 10x of base cover over years",
+            "restoration_benefit": "Unlimited reinstatement of base SI within policy year (ReAssure Forever - triggers after first paid claim, stays forever)",
+            "ayush_coverage": "Yes, covered in recognized AYUSH hospitals (24-hour stay for AYUSH; 2-hour for regular treatments in 3.0)",
+            "daycare_procedures": "All daycare procedures covered",
+            "modern_treatments": ["Robotic surgery", "Oral chemotherapy", "Stem cell therapy / bone marrow transplant", "Deep brain stimulation"],
+            "ambulance_coverage": "Road and air ambulance covered",
+            "health_checkups": "Annual health check-up from Day 1 of policy",
+            "consumables_coverage": "Covered via Safeguard+ add-on (also includes inflation protection)",
+            "maternity_coverage": "Available as optional cover in some variants",
+            "opd_coverage": "Available in higher variants / add-ons",
+            "domiciliary_hospitalization": "Covered up to SI (both cashless and reimbursement)",
+            "home_care_treatment": "Covered",
+            "second_medical_opinion": "Once annually for any condition requiring hospitalization",
+            "pre_hospitalization_days": 60,
+            "post_hospitalization_days": 180,
+            "mental_illness_coverage": "Covered",
+            "organ_donor_expenses": "Covered"
+          },
+          "waiting_periods": {
+            "initial_waiting_days": 30,
+            "ped_waiting_months": 36,
+            "ped_modification_available": true,
+            "ped_reduced_options_months": "12 or 24 months (depending on variant, at additional premium)",
+            "specific_diseases_months": 24,
+            "specific_diseases_modification": "Can be adjusted to 12 or 36 months in ReAssure 3.0",
+            "cancer_waiting": "Covered from Day 31 (ReAssure 3.0 Black variant)",
+            "maternity_waiting_months": "As per optional cover terms",
+            "notes": "ReAssure 3.0 offers significant flexibility in waiting period customization. PED can be reduced to 12 months. Cancer from Day 31 in Black variant."
+          },
+          "exclusions": [
+            "Standard IRDAI permanent exclusions",
+            "Adventure sports injuries (unless specifically covered)",
+            "Cosmetic/plastic surgery",
+            "Self-inflicted injuries",
+            "Hormone replacement therapy",
+            "Change of gender treatment"
+          ],
+          "key_features": [
+            "ReAssure Forever - unlimited SI reinstatement after first claim (lifetime feature)",
+            "Booster+ - unused SI accumulates up to 10x base cover",
+            "Lock the Clock - premiums at entry age until claim or specified age",
+            "Live Healthy - up to 30% renewal premium discount for fitness (step count based)",
+            "Annual health check-up from Day 1",
+            "Second medical opinion",
+            "Home care treatment (cashless)",
+            "4 variants in 3.0: Classic, Select, Elite, Black",
+            "Medical practitioner discount (5%)",
+            "Multi-insured discount (10% for 2+ people)",
+            "Loyalty discount (7.5% for 2-year, 15% for 3-year term)",
+            "Concierge service for planned hospitalizations (3.0)",
+            "Surprise Benefit voucher on policy issuance (3.0)",
+            "Borderless add-on for global treatment (3.0)"
+          ],
+          "official_url": "https://www.nivabupa.com/family-health-insurance-plans/reassurev2-insurance.html",
+          "reassure_3_url": "https://www.nivabupa.com/health-insurance-articles/reassure-3-0-benefits-plan-details.html",
+          "comparison_url": "https://www.beshak.org/insurance/health-insurance/best-health-insurance-plans/niva-bupa-re-assure/"
+        }
+      ]
+    },
+    {
+      "insurer_name": "Care Health Insurance Ltd.",
+      "insurer_id": "care_health",
+      "formerly_known_as": "Religare Health Insurance",
+      "founded": 2012,
+      "type": "Standalone Health Insurer",
+      "headquarters": "Gurugram",
+      "claim_settlement_ratio": {
+        "csr_percentage": "100% within 3 months (FY 2024-25 IRDAI for standalone health)",
+        "financial_year": "FY 2024-25",
+        "incurred_claim_ratio": "57.69% (among lowest for standalone health insurers)",
+        "source": "IRDAI FY 2024-25 disclosures",
+        "note": "High CSR but some complaints about claim-related issues. Low ICR indicates conservative claim payouts relative to premiums collected."
+      },
+      "network_hospitals": "21,700+",
+      "cashless_hospitals": "21,700+ (as of Dec 2025)",
+      "solvency_ratio": "1.68 (March 2025)",
+      "data_sources": {
+        "company_website": "https://www.careinsurance.com"
+      },
+      "plans": [
+        {
+          "plan_id": "care_001",
+          "plan_name": "Care Supreme",
+          "plan_type": "Individual / Family Floater",
+          "description": "Value-for-money comprehensive plan with no room rent/ICU sub-limits, unlimited automatic recharge, wellness rewards up to 30% discount, and Instant Cover add-on for lifestyle diseases from Day 31. Up to 7X coverage in 6 years via NCB Super.",
+          "coverage_static": {
+            "min_sum_insured": 500000,
+            "max_sum_insured": 1500000,
+            "sum_insured_options": "₹5L, ₹7L, ₹10L, ₹15L",
+            "room_rent_limit": "No limit - any room category covered",
+            "icu_rent_limit": "No limit",
+            "co_payment": "Nil",
+            "disease_sublimits": "None - all treatments covered at actuals up to SI",
+            "no_claim_bonus": "50% of SI per claim-free year, max 100% of SI. With NCB Super add-on: 100% per year up to 500% in 5 years.",
+            "restoration_benefit": "Unlimited automatic recharge of SI - for same or different illness, unlimited times per policy year",
+            "ayush_coverage": "Yes, in-patient AYUSH treatment covered up to SI",
+            "daycare_procedures": "All daycare procedures covered",
+            "modern_treatments": ["Robotic surgery", "Deep brain stimulation", "Stem cell therapy", "Oral chemotherapy", "All listed modern treatments up to SI"],
+            "ambulance_coverage": "Emergency road ambulance covered",
+            "health_checkups": "Optional add-on for annual preventive health check-up for all insured members",
+            "consumables_coverage": "Claim Shield add-on covers 68 non-payable/consumable items",
+            "maternity_coverage": "Not covered in base plan",
+            "opd_coverage": "Care OPD add-on: 4 GP + 4 specialist consultations per year (₹500/consultation reimbursement)",
+            "domiciliary_hospitalization": "Covered for 3+ days when hospitalization not possible",
+            "pre_hospitalization_days": 60,
+            "post_hospitalization_days": 180,
+            "mental_illness_coverage": "Hospitalization covered in base plan. OPD mental health (depression, anxiety, PTSD, OCD) via Mental Well-being add-on.",
+            "organ_donor_expenses": "Covered"
+          },
+          "waiting_periods": {
+            "initial_waiting_days": 30,
+            "ped_waiting_months": 48,
+            "ped_reduction_add_on": "PED Wait Period Modification add-on: reduces from 48 months to 12/24/36 months",
+            "instant_cover_add_on": "Reduces waiting for Diabetes, Hypertension, Hyperlipidemia, Asthma to 30 days",
+            "specific_diseases_months": 24,
+            "maternity_waiting_months": "Not covered",
+            "notes": "IMPORTANT: Care Supreme has 48-month (4-year) PED waiting - longer than industry standard of 36 months. However, Instant Cover add-on and PED modification add-ons can significantly reduce this."
+          },
+          "exclusions": [
+            "Pre-existing diseases until waiting period completion",
+            "Cosmetic surgery",
+            "Self-inflicted injuries",
+            "Drug/alcohol addiction treatment",
+            "Pregnancy and childbirth",
+            "Infertility treatment",
+            "Adventure/hazardous sports injuries",
+            "Obesity treatment (unless bariatric surgery after waiting)",
+            "Investigation-only admissions",
+            "Consumables (unless Claim Shield add-on purchased)"
+          ],
+          "key_features": [
+            "No room rent or disease sub-limits",
+            "Unlimited automatic SI recharge (same/different illness)",
+            "Instant Cover add-on for 4 lifestyle diseases from Day 31",
+            "NCB Super add-on (up to 500% SI increase = 7X coverage in 6 years)",
+            "Live Healthy wellness rewards (up to 30% renewal discount)",
+            "Care OPD add-on for consultations",
+            "Mental Well-being add-on for OPD mental health",
+            "Women Care add-on (mammography, PCOS tests, cervical cancer screening up to ₹50K/year)",
+            "Newborn Baby Cover add-on (from Day 31)",
+            "Claim Shield for consumables",
+            "Up to 6 members covered including parents-in-law, live-in/same-sex partners",
+            "Reasonably priced for the coverage offered"
+          ],
+          "official_url": "https://www.careinsurance.com/product/care-supreme",
+          "comparison_url": "https://joinditto.in/articles/health-insurance/care-supreme-plan-review/"
+        }
+      ]
+    },
+    {
+      "insurer_name": "Aditya Birla Health Insurance Co. Ltd.",
+      "insurer_id": "aditya_birla",
+      "founded": 2016,
+      "type": "Standalone Health Insurer",
+      "headquarters": "Mumbai",
+      "parent_company": "Aditya Birla Capital Ltd. (45.89%) + Momentum Group South Africa (44.08%)",
+      "claim_settlement_ratio": {
+        "csr_percentage": "100% within 3 months (FY 2024-25 IRDAI for standalone health)",
+        "overall_csr": "~96%",
+        "financial_year": "FY 2024-25",
+        "source": "IRDAI FY 2024-25 disclosures",
+        "note": "Newer entrant but rapidly growing. Strong wellness-linked insurance model. Moderate complaint volume - slightly higher than peers."
+      },
+      "network_hospitals": "15,000+",
+      "cashless_hospitals": "11,000-15,000+",
+      "solvency_ratio": "1.98 (March 2025)",
+      "data_sources": {
+        "company_website": "https://www.adityabirlacapital.com/healthinsurance"
+      },
+      "plans": [
+        {
+          "plan_id": "abhi_001",
+          "plan_name": "Activ Health Platinum (Enhanced)",
+          "plan_type": "Individual / Family Floater",
+          "description": "Wellness-focused premium plan with HealthReturns™ (up to 100% premium cashback for staying healthy), Chronic Management Program from Day 1 for lifestyle diseases, and premium waiver on critical illness diagnosis. Available in Essential, Enhanced, and Premiere variants.",
+          "coverage_static": {
+            "min_sum_insured": 200000,
+            "max_sum_insured": 20000000,
+            "sum_insured_options": "₹2L to ₹2Cr",
+            "room_rent_limit": "Enhanced variant: Single Private AC Room for SI up to ₹3L; Any room for SI ₹4L+. Premiere variant: No room rent limit at all.",
+            "icu_rent_limit": "No limit",
+            "co_payment": "Essential variant: 20% co-payment (can be waived at extra premium). Enhanced/Premiere: Nil.",
+            "disease_sublimits": "Enhanced: Cataract and joint replacement covered up to SI. Essential: May have sub-limits.",
+            "no_claim_bonus": "50% per claim-free year, max 100% (or max ₹1Cr)",
+            "restoration_benefit": "100% restoration of SI for unrelated illness/accident after first claim (Enhanced). Unlimited restoration (Premiere). Essential: No restoration.",
+            "ayush_coverage": "Yes, covered",
+            "daycare_procedures": "All daycare procedures covered",
+            "modern_treatments": ["Coronary angiography", "Cancer radiotherapy/chemotherapy", "Palliative care", "Bariatric surgery", "Stem cell therapy"],
+            "ambulance_coverage": "Road ambulance: As per actuals (network hospital) / up to ₹5,000 per hospitalization (non-network)",
+            "health_checkups": "Annual health check-up once per year",
+            "consumables_coverage": "Covered in Enhanced/Premiere variants",
+            "maternity_coverage": "Available as add-on after 24-month waiting period",
+            "opd_coverage": "Chronic Management Program covers OPD for Diabetes, Hypertension, Asthma, Cholesterol from Day 1. Additional OPD add-on available.",
+            "domiciliary_hospitalization": "Covered",
+            "pre_hospitalization_days": 60,
+            "post_hospitalization_days": 180,
+            "mental_illness_coverage": "Covered for hospitalization. Not limited to clinically significant conditions.",
+            "bariatric_surgery": "Covered if medically necessary (min age 18, prior approval required)"
+          },
+          "waiting_periods": {
+            "initial_waiting_days": 30,
+            "ped_waiting_months": 36,
+            "chronic_management_program": "Day 1 coverage for OPD expenses related to Asthma, Hypertension, Hyperlipidemia, Diabetes (medicines, diagnostics, consultations)",
+            "specific_diseases_months": 24,
+            "genetic_disorders_months": 48,
+            "maternity_waiting_months": 24,
+            "notes": "Unique Chronic Management Program provides Day 1 OPD coverage for lifestyle diseases - unmatched in industry. But full hospitalization for PEDs still requires 36-month wait. Premium waiver for 1 year if diagnosed with listed critical illness."
+          },
+          "exclusions": [
+            "War, riot, strike, nuclear weapon related",
+            "Self-inflicted injuries/suicide attempt",
+            "Cosmetic surgery (unless medically necessary)",
+            "Infertility/sterility treatment",
+            "Adventure sports (unless add-on)",
+            "Change of gender treatment",
+            "Obesity treatment (except bariatric surgery)",
+            "Unproven/experimental treatments"
+          ],
+          "key_features": [
+            "HealthReturns™ - earn up to 100% of premium back for staying healthy/active",
+            "Chronic Management Program - Day 1 OPD for lifestyle diseases",
+            "Premium Waiver - 1 year premium waived on critical illness diagnosis",
+            "Recovery Benefit - ₹10,000 fixed payout on discharge (once/policy year)",
+            "Expert Wellness Coach (nutritional, medical, mental counseling)",
+            "Second E-Opinion for major illnesses",
+            "3 variants: Essential (budget), Enhanced (balanced), Premiere (premium)",
+            "Fitness rewards via Activ Fit app",
+            "Dental consultation coverage",
+            "Worldwide emergency coverage",
+            "Maternity add-on with newborn cover",
+            "Critical illness add-on (lump sum)",
+            "Hospital cash benefit add-on"
+          ],
+          "official_url": "https://www.adityabirlacapital.com/healthinsurance/active-health-enhanced-insurance",
+          "comparison_url": "https://www.beshak.org/insurance/health-insurance/best-health-insurance-plans/aditya-birla-activ-health-platinum-enhanced/"
+        }
+      ]
+    }
+  ],
+  "comparison_quick_reference": {
+    "shortest_ped_waiting": {
+      "winner": "ICICI Lombard Complete Health Insurance",
+      "ped_months": 24,
+      "note": "Star Health Comprehensive and Super Star offer 12-month PED via buyback add-on. ICICI Elevate JumpStart reduces lifestyle disease PED to 30 days."
+    },
+    "best_day1_chronic_coverage": {
+      "winner": "Aditya Birla Activ Health Platinum",
+      "feature": "Chronic Management Program covers OPD expenses from Day 1 for Diabetes, Hypertension, Asthma, Cholesterol"
+    },
+    "best_restoration_benefit": {
+      "winner": "Niva Bupa ReAssure",
+      "feature": "ReAssure Forever - unlimited reinstatement of base SI after first paid claim, stays for life of policy"
+    },
+    "best_instant_coverage_increase": {
+      "winner": "HDFC ERGO Optima Secure",
+      "feature": "2X cover from Day 1 via Secure Benefit; 4X total in 2 years"
+    },
+    "best_wellness_rewards": {
+      "winner": "Aditya Birla (HealthReturns™ up to 100%) and Care Supreme (30% renewal discount)",
+      "feature": "Both reward healthy behavior with premium savings"
+    },
+    "largest_network": {
+      "winner": "Care Health Insurance",
+      "hospitals": "21,700+",
+      "note": "Star Health has 14,000+ and Aditya Birla has 15,000+"
+    },
+    "highest_csr_irdai": {
+      "winners": ["Niva Bupa (100%)", "Care Health (100%)", "Aditya Birla (100%)"],
+      "note": "All standalone health insurers showed 100% claims settled within 3 months in FY 2024-25 per IRDAI. Among general insurers, HDFC ERGO at 98.85% and ICICI Lombard at 98.45%."
+    },
+    "most_affordable": {
+      "winner": "Care Supreme",
+      "note": "Generally offers the lowest premiums for comparable coverage. Starting at ₹17/day as per Care Health website."
+    },
+    "longest_ped_waiting_caution": {
+      "insurer": "Care Health Insurance (Care Supreme)",
+      "ped_months": 48,
+      "note": "48 months (4 years) is the longest PED waiting among the 6 insurers analyzed. Use Instant Cover or PED modification add-ons."
+    }
+  }
+}
