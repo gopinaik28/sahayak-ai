@@ -1,114 +1,72 @@
-# 📁 Project Structure Overview
-
-## Final Organized Structure
+# 📁 Project Structure
 
 ```
 health-insurance/
 │
-├── 📂 backend/                     # FastAPI Backend
-│   ├── backend_api.py             # Main API server with CrewAI
-│   ├── data/                      # Insurance JSON data
+├── backend/                          # FastAPI Backend
+│   ├── backend_api.py               # Main API server with CrewAI agents
+│   ├── requirements.txt             # Python dependencies
+│   ├── data/
 │   │   └── indian_health_insurance_data.json
-│   └── requirements.txt           # Python dependencies
+│   └── rag/                         # RAG Infrastructure
+│       ├── rag_engine.py            # Semantic search engine
+│       ├── setup_embeddings.py      # One-time vector DB setup
+│       ├── chroma_db/               # Persistent vector database (gitignored)
+│       └── README.md
 │
-├── 📂 frontend/                    # Next.js Website
-│   ├── app/                       # Next.js 14 app router
-│   │   ├── api/recommend/         # API route
-│   │   ├── recommend/             # Recommendation page
-│   │   ├── page.tsx               # Home page
-│   │   └── layout.tsx             # Layout
-│   ├── components/                # React components
-│   │   ├── Hero.tsx
-│   │   ├── Features.tsx
-│   │   └── ui/                    # shadcn components
-│   ├── public/                    # Static files
-│   ├── package.json               # Node dependencies
-│   └── README.md                  # Frontend docs
+├── frontend/                         # Next.js 14 Website
+│   ├── app/
+│   │   ├── page.tsx                 # Home page
+│   │   ├── layout.tsx               # Root layout
+│   │   ├── globals.css              # Global styles
+│   │   ├── api/recommend/route.ts   # API proxy route
+│   │   └── recommend/page.tsx       # Recommendation page
+│   ├── components/
+│   │   ├── Hero.tsx                 # Hero section
+│   │   └── ui/                      # shadcn/ui components
+│   ├── lib/utils.ts
+│   ├── public/favicon.ico
+│   └── package.json
 │
-├── 📂 notebooks/                   # Jupyter Notebooks
+├── notebooks/
 │   └── health_insurance_recommender.ipynb
 │
-├── 📂 scripts/                     # Python Scripts
-│   ├── app.py                     # Streamlit app
-│   └── health_insurance_recommender.py
+├── docs/                             # Documentation
+│   ├── ARCHITECTURE_EXPLANATION.md
+│   ├── PRODUCTION_ANTI_HALLUCINATION.md
+│   ├── PROJECT_STRUCTURE.md          # This file
+│   └── RAG_GUIDE.md
 │
-├── 📂 data/                        # Shared data files
-│   └── indian_health_insurance_data.json
-│
-├── 📂 venv/                        # Python virtual environment
-│
-├── 📄 README.md                    # Main documentation
-├── 📄 AI_INTEGRATION_GUIDE.md      # API integration guide
-├── 📄 STREAMLIT_GUIDE.md           # Streamlit usage guide
-├── 📄 start_website.sh             # Startup script
-└── 📄 requirements.txt             # Root Python deps
-
+├── .gitignore
+├── README.md
+└── start_website.sh                  # Quick-start script
 ```
 
-## How to Run Each Component
+## How to Run
 
-### 1️⃣ Backend (FastAPI)
+### 🚀 Quick Start
 ```bash
+./start_website.sh
+```
+
+### Manual Start
+```bash
+# Terminal 1 — Backend
 cd backend
 source ../venv/bin/activate
 python backend_api.py
 # → http://localhost:8000
-```
 
-### 2️⃣ Frontend (Next.js)
-```bash
+# Terminal 2 — Frontend
 cd frontend
 npm run dev
 # → http://localhost:3000
 ```
 
-### 3️⃣ Streamlit App
-```bash
-cd scripts
-source ../venv/bin/activate
-streamlit run app.py
-```
+## Technologies
 
-### 4️⃣ Jupyter Notebook
-```bash
-jupyter notebook notebooks/health_insurance_recommender.ipynb
-```
-
-### 🚀 Quick Start (All at once)
-```bash
-./start_website.sh
-```
-
-## File Purposes
-
-| File/Folder | Purpose |
-|-------------|---------|
-| `backend/backend_api.py` | FastAPI server with 3 CrewAI agents |
-| `frontend/` | Professional Next.js website with AI integration |
-| `notebooks/` | Interactive Jupyter notebook for testing |
-| `scripts/app.py` | Streamlit alternative interface |
-| `data/` | JSON files with insurance plan details |
-| `venv/` | Python virtual environment |
-
-## Technologies Used
-
-**Backend:**
-- FastAPI
-- CrewAI (3 AI agents)
-- Ollama (llama3.2)
-- Python 3.13
-
-**Frontend:**
-- Next.js 14
-- TypeScript
-- Tailwind CSS
-- ReactMarkdown
-- shadcn/ui
-
-**Tools:**
-- Jupyter Notebook
-- Streamlit
-
----
-
-**Clean, organized, and production-ready! 🎉**
+| Layer | Stack |
+|-------|-------|
+| Frontend | Next.js 14, TypeScript, Tailwind CSS, shadcn/ui |
+| Backend | FastAPI, CrewAI, Ollama (llama3.2) |
+| RAG | ChromaDB, Ollama Embeddings (nomic-embed-text) |

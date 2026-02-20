@@ -122,14 +122,13 @@ health-insurance-ai/
 │   ├── components/        # React components
 │   └── package.json       # Node dependencies
 │
-├── docs/                  # Documentation
-│   ├── AI_INTEGRATION_GUIDE.md
-│   ├── RAG_GUIDE.md
-│   ├── ARCHITECTURE_EXPLANATION.md
-│   └── ANTI_HALLUCINATION_FIXES.md
-│
 ├── notebooks/             # Jupyter notebooks
-└── scripts/              # Utility scripts
+│
+└── docs/                  # Documentation
+    ├── ARCHITECTURE_EXPLANATION.md
+    ├── PRODUCTION_ANTI_HALLUCINATION.md
+    ├── PROJECT_STRUCTURE.md
+    └── RAG_GUIDE.md
 ```
 
 ---
@@ -196,16 +195,16 @@ Strict prompts prevent AI from making up information:
 - Never guess missing information
 - Verify all numbers against source data
 
-See `docs/ANTI_HALLUCINATION_FIXES.md` for details.
+See `docs/PRODUCTION_ANTI_HALLUCINATION.md` for details.
 
 ---
 
 ## 📚 Documentation
 
-- [AI Integration Guide](docs/AI_INTEGRATION_GUIDE.md) - How AI agents work
 - [RAG Guide](docs/RAG_GUIDE.md) - Complete RAG implementation details
 - [Architecture](docs/ARCHITECTURE_EXPLANATION.md) - System design
-- [Anti-Hallucination](docs/ANTI_HALLUCINATION_FIXES.md) - Accuracy measures
+- [Anti-Hallucination](docs/PRODUCTION_ANTI_HALLUCINATION.md) - Accuracy measures
+- [Project Structure](docs/PROJECT_STRUCTURE.md) - Directory overview
 
 ---
 
